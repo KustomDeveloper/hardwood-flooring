@@ -1,0 +1,17 @@
+{
+  "name": "kitchen_remodeling_modern",
+  "version": "1.0.0",
+  "description": "Modern kitchen remodeling theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JSA Interactive",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "browser-sync": "^2.27.8",
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
+  }
+}
