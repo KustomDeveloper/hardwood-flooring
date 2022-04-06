@@ -1,6 +1,6 @@
-# Carpet Cleaning Theme
+# Hardwood Flooring Theme
 
-The Carpet Cleaning Theme is a custom theme created for Carpet Cleaning Businesses. 
+The Hardwood Flooring Theme is a custom theme created for Hardwood Flooring Businesses. 
 
   - Bootstrap 4
   - Magnific Popup Photo Gallery
