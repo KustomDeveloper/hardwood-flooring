@@ -6,32 +6,37 @@ get_header(); ?>
 
 <div id="home-banner" class="section-one-wrapper">
     <div class="home-banner-box">
-        <h3>PROFESSIONAL CARPET CLEANERS</h3>
-        <h1 class="home-title">Carpet Cleaning in <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?></span></h1>
-        <h2 class="banner-h2"><u>Carpet Cleaning <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?>:</u> Give Your Home and Your Carpets The Best You Can.</h2>
+        <h3>NEED PROFESSIONSALS?</h3>
+        <p>Hire us for a</p>
+        <h1 class="home-title">Hardwood Flooring Install <span>in <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?></span></h1>
+        
         <a class="bb-cta" href="tel:<?php echo preg_replace('/[^0-9]/', '', get_theme_mod('bus_info_phone')); ?>"><button><img src="<?php bloginfo("stylesheet_directory"); ?>/img/small-phone.png" />Call Now</button></a>
     </div>
 </div><!--.section-one-wrapper-->
 
 <div class="container ft-container">
     <div class="row">
-        <div class="ftb-1 ft-box box-one col-md-3">
-            <div class="img-hover-zoom"><img src="<?php bloginfo("stylesheet_directory"); ?>/img/featured-1.png"></div>
-            <h2>Carpet Cleaning</h2>
+        <h2>SERVICES</h2>
+        <div class="row">
+        <h3>Professional Hardwood Floor Installers</h3>
+        <p>We Help Connect you to the Best Hardwood Flooring Contractors in the Area.</p>
+        <div class="below-banner-cta"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/blue-phone-icon.png" />CALL US ANYTIME <br/><a class="bb-cta" href="tel:<?php echo preg_replace('/[^0-9]/', '', get_theme_mod('bus_info_phone')); ?>"></a></div>
         </div>
-        <div class="ftb-2 ft-box box-two col-md-3">
-            <div class="img-hover-zoom"><img src="<?php bloginfo("stylesheet_directory"); ?>/img/featured-2.png"></div>
+        
+        <!-- 
+        <div class="ftb-1 ft-box box-two col-md-3">
+            <div class="img-hover-zoom"><img src="<?php //bloginfo("stylesheet_directory"); ?>/img/featured-2.png"></div>
             <h2>Area Rug Cleaning</h2> 
             </p>  
         </div>
-        <div class="ftb-3 ft-box box-three col-md-3">
-            <div class="img-hover-zoom"><img src="<?php bloginfo("stylesheet_directory"); ?>/img/featured-3.png"></div>
+        <div class="ftb-2 ft-box box-three col-md-3">
+            <div class="img-hover-zoom"><img src="<?php //bloginfo("stylesheet_directory"); ?>/img/featured-3.png"></div>
             <h2>Carpet Protection</h2>
         </div>
-        <div class="ftb-4 ft-box box-three col-md-3">
-            <div class="img-hover-zoom"><img src="<?php bloginfo("stylesheet_directory"); ?>/img/featured-4.png"></div>
+        <div class="ftb-3 ft-box box-three col-md-3">
+            <div class="img-hover-zoom"><img src="<?php //bloginfo("stylesheet_directory"); ?>/img/featured-4.png"></div>
             <h2>Upholstery Cleaning</h2>
-        </div>
+        </div> -->
     </div>
 </div>
 
