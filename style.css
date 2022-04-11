@@ -954,30 +954,12 @@ ul.sub-menu .sub-menu {
     padding: 0;
 }
 .section-title h2 {
-    font-size: 36px;
+    font-size: 14px;
     font-weight: 600;
     position: relative;
-    margin-bottom: 80px;
+    margin-bottom: 0;
     z-index: 999;
-    margin-left: -10px;
-}
-.customer-reviews .section-title h2:before {
-    content: "C";
-    position: relative;
-    top: 5px;
-    left: 15px;
-    z-index: -1;
-    color: rgba(255, 132, 0, 0.3);
-    font-size: 48px;
-}
-.media-gallery .section-title h2:before {
-    content: "M";
-    position: relative;
-    top: 3px;
-    left: 20px;
-    z-index: -1;
-    color: rgba(255, 132, 0, 0.3);
-    font-size: 48px;
+    margin-left: 0;
 }
 .section-title h2 span {
     color: var(--light-blue);
@@ -990,9 +972,10 @@ ul.sub-menu .sub-menu {
     padding: 0 25px;
 }
 .customer-reviews h2 {
-    font-size: 30px;
+    font-size: 14px;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
 }
 .customer-reviews img {
     max-width: 20px;
@@ -1021,9 +1004,10 @@ ul.sub-menu .sub-menu {
     padding: 0 25px;
 }
 .media-gallery h2 {
-    font-size: 30px;
+    font-size: 14px;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
 }
 .video-row .short-video-title{
     margin-top: 0px;
@@ -1043,29 +1027,24 @@ ul.sub-menu .sub-menu {
     background-size:cover;
 }
 .video-row iframe.vid-col1 {
-    background-image: url('img/1.png');
-    width: 246px;
-    height: 228px;
+    background-image: url('img/yt-1.png');
+    width: 310px;
+    height: 197px;
 }
 .video-row iframe.vid-col2 {
-    background-image: url('img/2.png');
-    width: 246px;
-    height: 228px;
+    background-image: url('img/yt-2.png');
+    width: 310px;
+    height: 197px;
 }
 .video-row iframe.vid-col3 {
-    background-image: url('img/3.png');
-    width: 246px;
-    height: 228px;
-}
-.video-row iframe.vid-col4 {
-    background-image: url('img/4.png');
-    width: 246px;
-    height: 228px;
+    background-image: url('img/yt-3.png');
+    width: 310px;
+    height: 197px;
 }
 
 .container.media-gallery {
     width: 100%;
-    max-width: 1150px;
+    max-width: 1420px;
     margin: 0 auto;
     padding: 0 25px;
 }

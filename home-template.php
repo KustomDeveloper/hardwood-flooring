@@ -32,16 +32,18 @@ get_header(); ?>
         <div class="row">
             <div class="ftb-1 ft-box box-two col-md-4">
                 <div class="img-hover-zoom"><img src="<?php bloginfo("stylesheet_directory"); ?>/img/featured-2.png"></div>
-                <h2>Area Rug Cleaning</h2> 
-                </p>  
+                <h2>Hardwood Flooring Installation</h2> 
+                <p>Hardwood flooring installation needs to be done correctly to achieve the maximum beauty, performance, and durability.</p>
             </div>
             <div class="ftb-2 ft-box box-three col-md-4">
                 <div class="img-hover-zoom"><img src="<?php bloginfo("stylesheet_directory"); ?>/img/featured-3.png"></div>
-                <h2>Carpet Protection</h2>
+                <h2>Laminate Flooring Installation</h2>
+                <p>Laminate manufacturers have developed products with great surface texture and visual appeal.</p>
             </div>
             <div class="ftb-3 ft-box box-three col-md-4">
                 <div class="img-hover-zoom"><img src="<?php bloginfo("stylesheet_directory"); ?>/img/featured-4.png"></div>
-                <h2>Upholstery Cleaning</h2>
+                <h2>Hardwood Flooring Maintenance</h2>\
+                <p>Hardwood floor maintenance is quite easy and doesn’t take up as much time as carpeting, tiles, or even vinyl does.</p>
             </div>
         </div>
     </div>
@@ -52,83 +54,64 @@ get_header(); ?>
 <div class="container main-content">
     <div class="row two-column">
         <div>
-            <h2>Carpet Cleaning <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?>: Give Your Home and Your Carpets The Best You Can</h2>
+            <h2>Hardwood Flooring <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?></h2>
 
-            <p>If you are looking for the best carpet cleaning company in <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?>, you have to go with a company that has years of experience and the proper tools and skills to really tackle all of your carpet cleaning needs. There are so many benefits to professional carpet cleaning – even more than simply just having a better-looking carpet.</p>
+            <p>Do you want to add warmth, beauty, and a touch of class to any room in your home? It is easy when you use hardwood flooring in your interior design. Working with a hardwood flooring <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> company helps you to add uniqueness, beauty, and ease to your home without creating more of a mess for yourself. Hardwood floors make any room in your home seem more attractive, more welcoming, and better designed.</p>
 
-            <p>However, those benefits are only possible with professional carpet cleaning. DIY methods do not work as well and can actually damage your carpets more than they help them. Trust a carpet cleaning Los Angeles CA company with your carpets, and you will immediately see the difference.</p>
+            <p>It is important to work with a top rated hardwood flooring <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> company because that allows you to have complete control over all facets of your hardwood flooring, from the size and scope of it to the hardwood flooring refinishing and cleaning.</p>
 
-            <h2>Benefits of Residential Carpet Cleaning <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?></h2>
+            <p>A hardwood flooring <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> company offers a complete selection of hardwood floors that fit into your budget in any design, color, or style that you can imagine. The best hardwood flooring companies have relationships all over the world, which means you can get what you need from them. It is amazing how a unique hardwood floor can completely change your <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> home.</p>
 
-            <p>With every step someone takes in your home, your carpets are spewing dirt and dust into the air. If you ever come into your home after a long time of being away, that somewhat dirty smell that can linger might come from your carpets. Water, sweat, dirt, dust, wine, soda, milk, pet dander, wax, hair, and pretty much anything else that exists in your home will end up in your carpet. Often, the areas of our home that we use most frequently end up with the most damage – damage that readily available carpet cleaning products can’t handle.</p>
 
-            <p>This is when you need to hire a <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> professional carpet cleaning company that will help you make your carpets look great again.</p>
+            <h2>Hardwood Flooring: The Right Choice for Any Room in the House</h2>
 
-            <p>Working with a trustworthy carpet cleaning company ensures the following:</p>
+            <p>Hardwood flooring has beautiful designs and excellent qualities that will never fade or go out of style. Even better, they never need to be updated and can work in rooms of almost any style. They have more character and elegance than any other flooring option – taking even the most basic of rooms and making it stand out. There is truly nothing better than hardwood flooring in a <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> home – so don’t settle for less than the best.</p>
 
-            <ul class="main-bullets">
-                <li><img src="<?php bloginfo("stylesheet_directory"); ?>/img/bullet.png" />Consistent quality when it comes to carpet cleaning, communication, and follow up.</li>
-                <li><img src="<?php bloginfo("stylesheet_directory"); ?>/img/bullet.png" />A warranty to back up the work performed.</li>
-                <li><img src="<?php bloginfo("stylesheet_directory"); ?>/img/bullet.png" />Responsive customer service teams that will work with your schedule.</li>
-                <li><img src="<?php bloginfo("stylesheet_directory"); ?>/img/bullet.png" />High-quality equipment, tools, and solutions for your carpet cleaning needs.</li>
-                <li><img src="<?php bloginfo("stylesheet_directory"); ?>/img/bullet.png" />Highly trained professional carpet cleaners.</li>
-                <li><img src="<?php bloginfo("stylesheet_directory"); ?>/img/bullet.png" />When possible, the use of environmentally friendly cleaners.</li>
-                <li><img src="<?php bloginfo("stylesheet_directory"); ?>/img/bullet.png" />Excellent care for your delicate and antique rugs.</li>
-                <li><img src="<?php bloginfo("stylesheet_directory"); ?>/img/bullet.png" />Pre-treatment options for heavily soiled rugs and carpets.</li>
-            </ul>
+            <h2>Types of Hardwood Flooring <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?></h2>
+
+            <p>Oak hardwood flooring, Brazilian cherry hardwood flooring, engineered hardwood, solid hardwood, and anything in between – you can find it when you work with a top hardwood flooring <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> company. You have many choices that you can make, and the professionals can help you to determine what will look better in your home and what you should stay away from.</p>
+
+            <p>Planked flooring, hand scraped flooring, wire brushed flooring, or something else altogether – experienced <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> hardwood flooring services will have seen it all and done it all. Whether you want something that is brand new and exciting or you just want traditional flooring that will never go out of style, you can have it all.</p>
+
+            <h2>New Hardwood Flooring Installation</h2>
+
+            <p>Looking to put hardwood flooring in a new home? Or is your flooring so bad that you need to start over? A hardwood flooring <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> installation team rebuilds and builds your flooring from the ground up, giving it a natural feel. Installing sub flooring, creating a level surface in older homes, and working to ensure that your floor looks and feels new for years to come is a special skill, one that not all <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> companies have. Nothing compares to a team that has years of experience.</p>
+
+            <p>Make sure to hire a professional hardwood flooring installation team that is experienced at installing all kinds of floors. Maybe you want a specific design on the floor. Maybe you have a difficult space. Maybe you just won’t settle for nothing less than what you want – you need to ensure that you get it. Top rated hardwood flooring <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> installation can completely change the look and feel of your home.</p>
+
+
         
         </div><!--Left Column-->
 
         <div>
-            <h2>Benefits of Commercial Carpet Cleaning <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?></h2>
-                
-            <p>For commercial carpet cleaning, especially for commercial locations that experience a lot of foot traffic, carpet cleaning can be an essential way to impress your customers and clients and keep them coming back. From restaurants where food stains the carpet regularly to office buildings where pens explode, and people get paper cuts, stains abound. A great Los Angeles CA carpet cleaning company will help you to avoid the expense of replacing your carpet on a frequent basis. Instead, you can get your carpets professionally cleaned.</p>
 
-            <p>Carpet cleaning in the highest traffic areas is a great option, whether you want a deep cleaning of the entire carpet or the more economical choice of spot cleaning. Professional cleaners can even help you with rugs that have signs printed on them, pictures, or some other form of artwork. They can do all of this without introducing odors into your workplace environment – everyone can continue as usual.</p>
 
-            <p>If you are interested in commercial carpet cleaning, give us a call today so we can connect you with the right person.</p>
+        <h2>Floor Refinishing</h2>
 
-            <h3>Other Cleaning Services</h3>
+        <p>Hardwood floor refinishing effectually returns your floors to their previous glory, sanding out any problem areas, indentations, scrapes, and anything else that may make your flooring look older than it actually is. Many flooring contractors in <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> provide many diverse types of flooring as well as hardwood flooring and refinishing services – you don’t want that. As an alternative, hire a company that offers you competence and a concentration in hardwood flooring, hardwood floor restoration, and hardwood floor refinishing.</p>
 
-            <p>You may want to look for a carpet cleaning service that offers some of the following services as well:</p>
+        <p>Work with a hardwood flooring <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> refinishing company that focuses on hardwood flooring because they will give you the best results and the best floors. They know how to refinish difficult floors and can help you to select the best choices for a floor that needs specific care. Even better, they can problem solve as they go – making changes or alterations as necessary.</p>
 
-            <h4>Upholstery</h4>
-            <p>Cleaning upholstery is similar to cleaning a rug in that the delicate fabrics need to be deep cleaned and then the water needs to be removed. Find an upholstery cleaning company that will remove dust and indoor contaminants from your upholstery, leaving them brighter, cleaner, and healthier.</p>
+        <p>Look for a company that uses only the best products. Top rated <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> hardwood flooring refinishing companies and contractors will not cut corners at the expense of your flooring. Instead, they will use the highest rated products that they have worked with for themselves before. They don’t trick you by using lower rated products in areas you won’t see – that is a common occurrence with some companies.</p>
 
-            <h4>Area Rugs</h4>
-            <p>Find a carpet cleaning company that will put as much care into cleaning an area rug as they do a traditional carpet. Using gentle methods that lift spots away, area rug cleaning is a bit different from traditional cleaning. Some companies will clean the area rug at your home, while others have an option to pick it up and clean at their commercial location.</p>
+        <h2>Hardwood Floor Repair</h2>
 
-            <h4>Oriental Rugs</h4>
-            <p>Oriental rugs are some of the most delicate rugs, especially if they are old. You need to work with a trustworthy, reliable carpet cleaning company that will take the utmost care to improve the look and functionality of your Oriental rugs without ruining the craftsmanship or the integrity of the rug.</p>
+        <p>Hardwood flooring is one of the most attractive and sturdy flooring types, but just like many others, it eventually starts to show signs of wear and tear and necessitates hardwood floor repair. If you have ever seen a wooden floor, you should be able to tell quickly if your wood floors are in need of maintenance. Staining and waxing only cover up some of the scratches and other damage. Still, this alone won’t remove the problem, instead it will only mask it. You need assistance from a professional hardwood floor repair company in <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?>. An expert company will visibly restore your wood floors and make them feel safer as well.</p>
 
-            <h4>Need A Carpet Company?</h4>
-            <p>If you are interested in carpet cleaning that fits your budget, contact us today so that we can put you in contact with a local carpet cleaning company that can help you make your carpets look like new. While we cannot guarantee you a specific rate without seeing your carpets, we can put you in contact with someone who will help you get clean carpets on your budget.</p>
+        <p>Just because your hardwood floor is older or has visible damage, that doesn’t mean you need entirely new flooring. As an alternative, you may be able to repair or refinish your flooring and reverse some of the signs of damage. This approach will cost you less money and less time.</p>
 
-            <p>There is no time to delay – cleaning your carpets is critically important.</p>
-            
+        <h2>Interested in Hardwood Flooring Repair In <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?>?</h2>
+
+        <p>If you are interested in hardwood flooring repair or installation for your home, vacation home, apartments, shed, basement, or pretty much any other structure that you have, we can help you! Contact us today, and we can help you to determine the best hardwood flooring company in <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> that can answer these questions and help you to make the best choices.</p>
+                    
         </div><!--Right Column-->
     </div><!--.row-->
 </div>
 
-<div class="orange-cta">
+<div class="clean-cta">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 cta-review">
-                <p>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    Average 4.7 stars <br/> Based on <span>13 Reviews</span>
-                </p>
-            </div>
-
-            <div class="cta-text col-md-5">We Are Certified Carpet Cleaning Pros.</div>
-
-            <div class="col-md-4 call-cta"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/cta-phone.png"/>CALL US TODAY! <br/> 
-                <a href="tel:<?php echo preg_replace('/[^0-9]/', '', get_theme_mod('bus_info_phone')); ?>"><?php echo get_theme_mod('bus_info_phone'); ?></a>
-            </div>
+           <a href="tel:<?php echo preg_replace('/[^0-9]/', '', get_theme_mod('bus_info_phone')); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/ad-cta.png" /></a>
         </div> <!--.row-->
     </div><!--.container-->
 </div><!--.orange-cta-->
