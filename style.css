@@ -486,8 +486,47 @@ ul.sub-menu .sub-menu {
     cursor: pointer;
 }
 .ft-container {
-    max-width: 1278px;
+    max-width: 100%;
+    background: url(img/usa-dot-map.png) top center no-repeat, url(img/purple-wave-bg.png) no-repeat;
+    background-size: cover cover;
+    color:#fff;
     margin-top: -50px;
+}
+.ft-container .container {
+    max-width: 1310px;
+}
+.ft-container .row h2, .ft-container .row h3 {
+    color:#fff;
+}
+.featured-title {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    margin: 0;
+}
+.featured-subtitle {
+    font-size: 20px;
+    color: #8786a8;
+    text-align: left;
+    margin: 0 auto;
+    display:block;
+    max-width: 265px;
+}
+.below-banner-cta {
+    font-family: "Poppins", sans-serif;
+    margin-left:45px;
+    font-weight:900;
+    font-size: 15px;
+}
+.below-banner-cta img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left:0;
+}
+.below-banner-cta a {
+    color:#fff;
+    font-size: 24px;
 }
 .img-hover-zoom {
     height: 195px;
