@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <h3>Contact</h3>
+                <h3>Contact Info</h3>
                 <ul class="ftr-location">
                     <!--ADDRESS AND PHONE IS SET INSIDE WORDPRESS CUSTOMIZER-->
                     <li class="ftr-name"><?php echo get_bloginfo('site_title'); ?></li>
@@ -36,11 +36,11 @@
             <div class="col-md-3 ftr-social">
                 <h3>Stay Connected</h3>
                 <!--SOCIAL ICONS ARE SET INSIDE WORDPRESS CUSTOMIZER-->
-                <a href="<?php echo get_theme_mod('bus_info_facebook'); ?>"><img class="ftr-fb lazy" data-src="<?php bloginfo('stylesheet_directory'); ?>/img/fb-icon.png" /></a>
-                <a href="<?php echo get_theme_mod('bus_info_twitter'); ?>"><img class="ftr-tw lazy" data-src="<?php bloginfo('stylesheet_directory'); ?>/img/tw-icon.png" /></a>
-                <a href="<?php echo get_theme_mod('bus_info_youtube'); ?>"><img class="ftr-yt lazy" data-src="<?php bloginfo('stylesheet_directory'); ?>/img/yt-icon.png" /></a>
-                <a href="<?php echo get_theme_mod('bus_info_linkedin'); ?>"><img class="ftr-li lazy" data-src="<?php bloginfo('stylesheet_directory'); ?>/img/li-icon.png" /></a>
-                <a href="<?php echo get_theme_mod('bus_info_pinterest'); ?>"><img class="ftr-pi lazy" data-src="<?php bloginfo('stylesheet_directory'); ?>/img/pi-icon.png" /></a>
+                <a href="<?php echo get_theme_mod('bus_info_facebook'); ?>"><img class="ftr-fb lazy" data-src="<?php bloginfo('stylesheet_directory'); ?>/img/facebook-round.png" /></a>
+                <a href="<?php echo get_theme_mod('bus_info_twitter'); ?>"><img class="ftr-tw lazy" data-src="<?php bloginfo('stylesheet_directory'); ?>/img/twitter-round.png" /></a>
+                <a href="<?php echo get_theme_mod('bus_info_youtube'); ?>"><img class="ftr-yt lazy" data-src="<?php bloginfo('stylesheet_directory'); ?>/img/linkedin-round.png" /></a>
+                <a href="<?php echo get_theme_mod('bus_info_linkedin'); ?>"><img class="ftr-li lazy" data-src="<?php bloginfo('stylesheet_directory'); ?>/img/youtube-round.png" /></a>
+                <a href="<?php echo get_theme_mod('bus_info_pinterest'); ?>"><img class="ftr-pi lazy" data-src="<?php bloginfo('stylesheet_directory'); ?>/img/pinterest-round.png" /></a>
 
                 <iframe class="ftr-map" src="<?php echo get_theme_mod('bus_info_map_url'); ?>" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
