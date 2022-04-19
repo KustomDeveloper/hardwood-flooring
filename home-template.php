@@ -62,46 +62,52 @@ get_header(); ?>
     <div class="row two-column">
         <div class="left-column">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/img/modern-floor-content.png" />
-
-            <div class="hp-recent-posts-box">
-                <h3>RECENT POSTS</h3>
-                <?php 
+            <?php 
                 // The Query
                 $rp_args = array(
                     'posts_per_page' => 5,
                     'post_type' => 'post',
                 ); 
                 $recent_posts = new WP_Query( $rp_args );
-                
-                // The Loop
-                if ( $recent_posts->have_posts() ) {
-                    echo '<ul>';
-                    while ( $recent_posts->have_posts() ) {
-                        $recent_posts->the_post(); ?>
-                        <li><a href="<?php the_permalink(); ?>"></a><?php the_title(); ?></li>
-                    <?php }
-                    echo '</ul>';
-                } else {
-                    // no posts found
-                }
-                wp_reset_postdata();
-                ?>
-            </div>
 
-            <div class="hp-tags-box">
-                <h3>TAGS</h3>
-                <?php
-                $tags = wp_tag_cloud(array('echo' => false, 'orderby' => 'count', 'order' => 'DESC', 'number' => 25)); 
-                echo $tags;
-                ?>
+                $count = $recent_posts->found_posts;
+                //Show recent posts if posts exist
+                if($count > 0) { ?>
 
-            </div>
+            <div class="hp-recent-posts-box">
+                <h3>RECENT POSTS</h3>
 
+                   <?php // The Loop
+                    if ( $recent_posts->have_posts() ) {
+                        echo '<ul>';
+                        while ( $recent_posts->have_posts() ) {
+                            $recent_posts->the_post(); ?>
+                            <li><a href="<?php the_permalink(); ?>"></a><?php the_title(); ?></li>
+                        <?php }
+                        echo '</ul>';
+                    } else {
+                        // no posts found
+                    }
+                    wp_reset_postdata(); ?>
+                    </div>
+                <?php } 
+
+            $tags = get_tags();
+            $tag_count = count($tags);
+            //Show tag cloud if tags exist
+            if($tag_count > 0) { ?>
+                <div class="hp-tags-box">
+                    <h3>TAGS</h3>
+                    <?php
+                        $tags = wp_tag_cloud(array('echo' => false, 'orderby' => 'count', 'order' => 'DESC', 'number' => 25)); 
+                        echo $tags; ?>
+                </div>
+             <?php } ?>
+       
             <div class="hp-map">
                 <iframe src="<?php echo get_theme_mod('bus_info_map_url'); ?>" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
-            
 
         <h2>Floor Refinishing</h2>
 
@@ -180,7 +186,8 @@ get_header(); ?>
 <div class="clean-cta">
     <div class="container">
         <div class="row">
-                <a class="desktop-cta" href="tel:<?php echo preg_replace('/[^0-9]/', '', get_theme_mod('bus_info_phone')); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/ad-cta.png" /></a>
+                <a class="desktop-cta" href="tel:<?php echo preg_replace('/[^0-9]/', '', get_theme_mod('bus_info_phone')); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/ad-cta.png" /><span class="desktop-cta-phone"><?php echo get_theme_mod('bus_info_phone'); ?></span>
+            </a>
            <div class="mobile-cta">
                 <img class="tiny-cta" src="<?php bloginfo('stylesheet_directory'); ?>/img/Mobile-cta.png">
                 <a class="mobile-cta-phone" href="tel:<?php echo preg_replace('/[^0-9]/', '', get_theme_mod('bus_info_phone')); ?>"><?php echo get_theme_mod('bus_info_phone'); ?></a>

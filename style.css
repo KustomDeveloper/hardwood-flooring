@@ -1102,8 +1102,21 @@ ul.sub-menu .sub-menu {
 .clean-cta {
     margin: 0 0 50px;
 }
+.desktop-cta {
+    position: relative;
+}
+span.desktop-cta-phone {
+    position: absolute;
+    bottom: 40px;
+    right: 90px;
+    font-weight: 700;
+    font-size: 20px;
+}
 .clean-cta .container{
     max-width: 965px;
+}
+.desktop-cta-phone {
+    color: var(--orange-cta);
 }
 
 /*Recent Posts*/
@@ -1597,6 +1610,16 @@ div.wpcr3_review div.wpcr3_review_datePublished {
     }
     .ft-container {
         background: url(img/usa-dot-map.png) center 50px/100% no-repeat, #f7f7f7 url(img/purple-wave-bg.png) center -80px/cover no-repeat;
+    }
+    span.desktop-cta-phone {
+        bottom: 35px;
+        right: 80px;
+    }
+}
+@media screen and (max-width: 850px) {
+    span.desktop-cta-phone {
+        bottom: 25px;
+        right: 60px;
     }
 }
 
