@@ -180,8 +180,11 @@ get_header(); ?>
 <div class="clean-cta">
     <div class="container">
         <div class="row">
-           <a class="desktop-cta" href="tel:<?php echo preg_replace('/[^0-9]/', '', get_theme_mod('bus_info_phone')); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/ad-cta.png" /></a>
-           <img class="mobile-cta" src="<?php bloginfo('stylesheet_directory'); ?>/img/Mobile-cta.png">
+                <a class="desktop-cta" href="tel:<?php echo preg_replace('/[^0-9]/', '', get_theme_mod('bus_info_phone')); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/ad-cta.png" /></a>
+           <div class="mobile-cta">
+                <img class="tiny-cta" src="<?php bloginfo('stylesheet_directory'); ?>/img/Mobile-cta.png">
+                <a class="mobile-cta-phone" href="tel:<?php echo preg_replace('/[^0-9]/', '', get_theme_mod('bus_info_phone')); ?>"><?php echo get_theme_mod('bus_info_phone'); ?></a>
+           </div>
         </div> <!--.row-->
     </div><!--.container-->
 </div><!--.orange-cta-->
