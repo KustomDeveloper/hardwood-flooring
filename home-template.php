@@ -63,16 +63,16 @@ get_header(); ?>
         <div class="left-column">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/img/modern-floor-content.png" />
             <?php 
-                // The Query
-                $rp_args = array(
-                    'posts_per_page' => 5,
-                    'post_type' => 'post',
-                ); 
-                $recent_posts = new WP_Query( $rp_args );
+            // The Query
+            $rp_args = array(
+                'posts_per_page' => 5,
+                'post_type' => 'post',
+            ); 
+            $recent_posts = new WP_Query( $rp_args );
 
-                $count = $recent_posts->found_posts;
-                //Show recent posts if posts exist
-                if($count > 0) { ?>
+            $count = $recent_posts->found_posts;
+            //Show recent posts if posts exist
+            if($count > 0) { ?>
 
             <div class="hp-recent-posts-box">
                 <h3>RECENT POSTS</h3>

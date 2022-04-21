@@ -20,17 +20,24 @@
             </div>
 
             <div class="col-md-3">
-                <div class="ftr-recent-posts">
-                    <h3>Recent Posts</h3>
-                    <?php $footer_posts_query = new WP_Query(array('posts_per_page' => 5,));
-            
-                    while($footer_posts_query->have_posts()) : $footer_posts_query->the_post(); ?>
+                <?php
+                $footer_posts_query = new WP_Query(array('posts_per_page' => 5,));
+                $count = $footer_posts_query->found_posts;
 
-                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                //Show recent posts if posts exist
+                if($count > 0) { ?>
+                    <div class="ftr-recent-posts">
+                        <h3>Recent Posts</h3>
 
-                    <?php endwhile; ?>
-                    <?php wp_reset_postdata(); // reset the query ?>
-                </div>
+                        <?php while($footer_posts_query->have_posts()) : $footer_posts_query->the_post(); ?>
+                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                        <?php endwhile; ?>
+
+                        <?php wp_reset_postdata(); // reset the query ?>
+                    </div>
+                <?php } else { ?>
+                    <h3>No Posts Found</h3>
+                <?php } ?>
             </div>
 
             <div class="col-md-3 ftr-social">
