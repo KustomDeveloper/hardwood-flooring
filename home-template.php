@@ -165,10 +165,6 @@ get_header(); ?>
 
         <p>Hardwood flooring has beautiful designs and excellent qualities that will never fade or go out of style. Even better, they never need to be updated and can work in rooms of almost any style. They have more character and elegance than any other flooring option – taking even the most basic of rooms and making it stand out. There is truly nothing better than hardwood flooring in a <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> home – so don’t settle for less than the best.</p>
 
-        <h2>Types of Hardwood Flooring <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?></h2>
-
-        <p>Oak hardwood flooring, Brazilian cherry hardwood flooring, engineered hardwood, solid hardwood, and anything in between – you can find it when you work with a top hardwood flooring <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> company. You have many choices that you can make, and the professionals can help you to determine what will look better in your home and what you should stay away from.</p>
-
         <p>Planked flooring, hand scraped flooring, wire brushed flooring, or something else altogether – experienced <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?> hardwood flooring services will have seen it all and done it all. Whether you want something that is brand new and exciting or you just want traditional flooring that will never go out of style, you can have it all.</p>
 
         <h2>Hardwood Flooring <?php echo get_theme_mod('bus_info_city_address'); ?> <?php echo get_theme_mod('bus_info_state_address'); ?></h2>
