@@ -281,7 +281,7 @@ ul.sub-menu .sub-menu {
 }
 .nav-phone {
     position: relative;
-    margin: 10px 15px 0;
+    margin: 10px 15px 0 auto;
 }
 .nav-phone p {
     margin:0;
